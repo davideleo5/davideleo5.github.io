@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div className='header section__padding' id='home'>
       <div className='header-content'>
-        <h1>Musical</h1>
+        {/* @TODO: sostituire con logo */}
+        <h1>Divino</h1>
       </div>
     </div>
   )
