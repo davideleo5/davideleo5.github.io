@@ -1,12 +1,17 @@
 import React from 'react';
+import { Navbar } from '../../components';
 import './header.css';
+import background from "../../assets/header-banner.jpg";
 
 const Header = () => {
   return (
-    <div className='header section__padding' id='home'>
-      <div className='header-content'>
-        {/* @TODO: sostituire con logo */}
-        <h1>Divino</h1>
+    <div className='header' id='header'>
+      <div className='header-content' style={{ backgroundImage: `url(${background})` }}>
+        <Navbar />
+        <div className='header-logo'>
+          {/* @TODO: sostituire con logo */}
+          <h1>Divino musical</h1>
+        </div>
       </div>
     </div>
   )

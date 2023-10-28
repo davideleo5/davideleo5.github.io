@@ -5,7 +5,6 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href="#home">Home</a></p>
     <p><a href="#what">Chi siamo</a></p>
     <p><a href="#shows">Spettacoli</a></p>
     <p><a href="#social">Social</a></p>
