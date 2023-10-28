@@ -2,17 +2,55 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-  
-  --color-bg: #811b28;
-  --color-footer : #c92a3e;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+
+  --color-bg: #081825;
+  --color-footer: #081825;
+  --color-text: #FFFFFF;
+  --color-subtext: #FFFFFF;
 }
 
 h1 {
-  color: #fff;
+  color: var(--color-text);
   font-family: 'ANDYFISH';
   font-size: 60px;
   line-height: 65px;
   text-transform: uppercase;
 }
+
+/* COMMON ANIMATION CLASSES */
+
+/* START - Text focus in */
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* END - Text focus in */
