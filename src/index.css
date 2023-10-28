@@ -8,3 +8,11 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 }
+
+h1 {
+  color: #fff;
+  font-family: 'ANDYFISH';
+  font-size: 60px;
+  line-height: 65px;
+  text-transform: uppercase;
+}
