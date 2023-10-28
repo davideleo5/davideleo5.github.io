@@ -9,9 +9,15 @@
   --color-subtext: #FFFFFF;
 }
 
+@font-face {
+  font-family: 'ANDYFISH';
+  src: url('./assets/fonts/ANDYFISH.woff') format('woff'),
+       url('./assets/fonts/ANDYFISH.ttf') format('truetype');
+}
+
 h1 {
   color: var(--color-text);
-  font-family: 'ANDYFISH';
+  font-family: 'ANDYFISH', sans-serif;
   font-size: 60px;
   line-height: 65px;
   text-transform: uppercase;
@@ -19,7 +25,7 @@ h1 {
 
 h3 {
   color: var(--color-text);
-  font-family: 'ANDYFISH';
+  font-family: 'ANDYFISH', sans-serif;
   font-size: 35px;
   line-height: 40px;
   margin: 0 0 2rem;
