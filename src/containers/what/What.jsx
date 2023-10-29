@@ -5,8 +5,10 @@ import background from "../../assets/chi-siamo.jpg";
 import backgroundMobile from "../../assets/chi-siamo-mobile.jpg";
 
 const What = () => {
-  const { ref, inView } = useInView();
-  const windowWidth = useRef(window.innerWidth);
+  const { ref, inView } = useInView({
+    triggerOnce: true
+  }),
+    windowWidth = useRef(window.innerWidth);
   var backgroundImageUrl = '';
 
   if (windowWidth.current > 768) {
