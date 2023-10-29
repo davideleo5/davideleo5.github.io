@@ -1,0 +1,12 @@
+.shows-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+    position: relative;
+}
+
+.shows-container .shows-coming-soon-title {
+    margin: 0;
+    text-align: center;
+}

@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'ANDYFISH';
   src: url('./assets/fonts/ANDYFISH.woff') format('woff'),
-       url('./assets/fonts/ANDYFISH.ttf') format('truetype');
+    url('./assets/fonts/ANDYFISH.ttf') format('truetype');
 }
 
 h1 {
@@ -408,3 +408,39 @@ p {
 }
 
 /* END - Text flicker in */
+
+/* START - Slide in */
+.slide-in-fwd-center {
+  -webkit-animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/* END - Slide in */
