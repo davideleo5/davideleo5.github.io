@@ -3,4 +3,21 @@
     background-size: cover;
     background-position: center;
     padding: 10% 0 5%;
+    position: relative;
+}
+
+.chi-siamo-container::after {
+    bottom: 0;
+    content: '';
+    background-color: #000;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.chi-siamo-content {
+    position: relative;
+    z-index: 1;
 }
