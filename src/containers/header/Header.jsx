@@ -8,7 +8,7 @@ const Header = () => {
     <div className='header' id='header'>
       <div className='header-content' style={{ backgroundImage: `url(${background})` }}>
         <Navbar />
-        <div className='header-logo text-focus-in'>
+        <div className='header-logo'>
           {/* @TODO: sostituire con logo */}
           <h1>Divino musical</h1>
         </div>

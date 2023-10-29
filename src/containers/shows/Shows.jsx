@@ -1,4 +1,4 @@
-import { React, useRef } from 'react';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import './shows.css';
 import background from "../../assets/shows.jpg";
