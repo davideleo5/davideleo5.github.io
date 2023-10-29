@@ -10,7 +10,7 @@ const Shows = () => {
 
   return (
     <div id='shows' className='shows-container' style={{ backgroundImage: `url(${background})` }}>
-      <h3 ref={ref} className={`shows-coming-soon-title ${inView ? 'slide-in-fwd-center' : ''}`}>COMING SOON...</h3>
+      <h2 ref={ref} className={`shows-coming-soon-title ${inView ? 'slide-in-fwd-center' : ''}`}>COMING SOON...</h2>
     </div>
   )
 }
