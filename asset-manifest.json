@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb18d430.css",
-    "main.js": "/static/js/main.c70bd5af.js",
+    "main.css": "/static/css/main.fc2ad8b0.css",
+    "main.js": "/static/js/main.6ee9fb16.js",
     "static/media/coming-soon.mp4": "/static/media/coming-soon.57cf1c959f6f5aa130c9.mp4",
     "static/media/header-banner.jpg": "/static/media/header-banner.e9f61063dcbd0993d86c.jpg",
     "static/media/chi-siamo-mobile.jpg": "/static/media/chi-siamo-mobile.a70a2d3deaed637d725b.jpg",
+    "static/media/shows.jpg": "/static/media/shows.5b8a4bad6a0bff49d1cb.jpg",
     "static/media/chi-siamo.jpg": "/static/media/chi-siamo.313dd2d84e0a6e8c5e5e.jpg",
     "static/media/ANDYFISH.ttf": "/static/media/ANDYFISH.5fdbff029a18e80ce9a4.ttf",
     "static/media/ANDYFISH.woff": "/static/media/ANDYFISH.6b3b80e115554b01e16d.woff",
     "static/media/logo.svg": "/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/index.html",
-    "main.bb18d430.css.map": "/static/css/main.bb18d430.css.map",
-    "main.c70bd5af.js.map": "/static/js/main.c70bd5af.js.map"
+    "main.fc2ad8b0.css.map": "/static/css/main.fc2ad8b0.css.map",
+    "main.6ee9fb16.js.map": "/static/js/main.6ee9fb16.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb18d430.css",
-    "static/js/main.c70bd5af.js"
+    "static/css/main.fc2ad8b0.css",
+    "static/js/main.6ee9fb16.js"
   ]
 }
