@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from '../../components';
 import './header.css';
-import background from "../../assets/header-banner.jpg";
+import background from "../../assets/header-banner.webp";
 
 const Header = () => {
   return (

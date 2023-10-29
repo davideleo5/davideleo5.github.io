@@ -1,8 +1,8 @@
 import { React, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './what.css';
-import background from "../../assets/chi-siamo.jpg";
-import backgroundMobile from "../../assets/chi-siamo-mobile.jpg";
+import background from "../../assets/chi-siamo.webp";
+import backgroundMobile from "../../assets/chi-siamo-mobile.webp";
 
 const What = () => {
   const { ref, inView } = useInView({
