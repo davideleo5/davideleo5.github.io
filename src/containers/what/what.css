@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10% 0 5%;
+    padding: 10% 0;
     position: relative;
 }
 
@@ -20,4 +20,10 @@
 .chi-siamo-content {
     position: relative;
     z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .chi-siamo-container {
+        padding: 10% 0 5%;
+    }
 }
