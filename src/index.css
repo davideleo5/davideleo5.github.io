@@ -12,6 +12,7 @@
   font-family: 'ANDYFISH';
   src: url('./assets/fonts/ANDYFISH.woff') format('woff'),
     url('./assets/fonts/ANDYFISH.ttf') format('truetype');
+  font-display: swap;
 }
 
 h1 {
