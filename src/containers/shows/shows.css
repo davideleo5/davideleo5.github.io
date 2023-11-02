@@ -2,11 +2,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 20%;
+    padding: 20% 0;
     position: relative;
 }
 
 .shows-container .shows-coming-soon-title {
     margin: 0;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .shows-container {
+        padding: 40% 0;
+    }
 }
