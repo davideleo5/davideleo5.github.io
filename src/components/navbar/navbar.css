@@ -53,7 +53,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-bg);
     padding: 1rem 2rem;
     position: absolute;
     top: 40px;
