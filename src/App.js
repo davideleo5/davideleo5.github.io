@@ -10,7 +10,6 @@ const App = () => {
       <Header />
       <What />
       <Shows />
-      <Social />
       <Footer />
     </div>
   )

@@ -3,7 +3,6 @@
 :root {
   --font-family: 'Manrope', sans-serif;
   --color-bg: #510d22;
-  --color-footer: #510d22;
   --color-text: #FFFFFF;
   --color-subtext: #FFFFFF;
 }
@@ -35,6 +34,13 @@ h2 {
 p {
   color: var(--color-text);
   font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: var(--color-text);
+  font-family: 'Manrope', sans-serif;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 700px) {
