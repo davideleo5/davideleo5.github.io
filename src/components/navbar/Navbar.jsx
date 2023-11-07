@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
           {/* @TODO: sostituire logo con icona musical (calice di vino, roba simile) */}
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="Divino Musical Logo" />
         </div>
         <div className='navbar-links_container'>
           <Menu />

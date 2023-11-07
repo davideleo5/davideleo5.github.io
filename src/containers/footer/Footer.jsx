@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='footer-content section__padding'>
         <div className='column column-1'>
           <a href='/'>
-            <img src={logo} alt='logo' />
+            <img src={logo} alt='Divino Musical Logo' />
           </a>
           <a className='mail' href="mailto:info@divino-musical.com">info@divino-musical.com</a>
         </div>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className='column column-3'>
           <a href='https://instagram.com/divino_musical?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr' target='blank'>
-            <img src={instagramLogo} alt='Instagram' />
+            <img src={instagramLogo} alt='Instagram logo' />
             <p>Instagram</p>
           </a>
         </div>
