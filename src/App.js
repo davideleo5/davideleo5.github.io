@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Header, What, Shows, Footer } from './containers';
-import { Maintenance, Social } from './components';
+import { Maintenance } from './components';
 import './App.css';
 
 const App = () => {
