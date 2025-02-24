@@ -74,6 +74,27 @@ a {
     font-family: FashionFetish;
     line-height: 25px;
 }
+
+button {
+    background-color: var(--color-rosino);
+    border: 1px solid var(--color-rosino);
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 50px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--color-panna);
+    border: 1px solid var(--color-panna);
+}
+
+button:hover a {
+    color: var(--color-rosino);
+}
+
   
 @media screen and (max-width: 700px) {
     h1 {
@@ -100,6 +121,7 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1200px;
 }
 
@@ -115,7 +137,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
     .section__padding {
         padding: 4rem;
     }

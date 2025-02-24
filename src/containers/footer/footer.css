@@ -42,10 +42,6 @@
 }
 
 @media screen and (max-width: 700px) {
-    .footer .footer-content.section__padding {
-        padding: 2rem;
-    }
-
     .footer .footer-content .column {
         margin: 10px 0;
         width: 100%;

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
 }
 
 .navbar-links {
@@ -68,11 +67,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .navbar {
-        padding: 2rem 4rem;
-    }
-
-    .navbar-links_container {
+    
+.navbar-links_container {
         display: none;
     }
 

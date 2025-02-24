@@ -14,7 +14,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='navbar'>
+    <div className='navbar container section__padding'>
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
           {/* @TODO: sostituire logo con icona musical (calice di vino, roba simile) */}
