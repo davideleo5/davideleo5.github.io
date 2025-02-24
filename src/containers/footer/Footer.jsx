@@ -5,7 +5,7 @@ import instagramLogo from '../../assets/instagram.svg'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer container'>
       <div className='footer-content section__padding'>
         <div className='column column-1'>
           <a href='/'>
