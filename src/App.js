@@ -1,17 +1,21 @@
 import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { Header, What, Shows, Footer } from './containers';
-import { Maintenance } from './components';
+import { Home } from './pages/Home';
+import { Shows } from './pages/Shows';
+import { PageNotFound } from './pages/PageNotFound';
+
 import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div className='App'>
-      <Header />
-      <What />
-      <Shows />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/spettacoli' element={<Shows />}/>
+        <Route path='*' element={<PageNotFound />}/>
+      </Routes>
+    </Router>
   )
 }
 
