@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className='copyright'>Copyright © 2023 - Divino Musical</p>
+      <p className='copyright'>Copyright © 2025 - Divino Musical</p>
     </div>
   )
 }
