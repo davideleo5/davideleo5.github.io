@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.24a0956d.css",
-    "main.js": "/static/js/main.21a3fd62.js",
+    "main.css": "/static/css/main.b6f2c6c8.css",
+    "main.js": "/static/js/main.bce4d59b.js",
     "static/media/coming-soon.mp4": "/static/media/coming-soon.57cf1c959f6f5aa130c9.mp4",
     "static/media/shows.webp": "/static/media/shows.c555534e8719f0fb72ba.webp",
-    "static/media/chi-siamo.webp": "/static/media/chi-siamo.f1c5242c64ee2e565e76.webp",
     "static/media/header-banner.webp": "/static/media/header-banner.84ae50bf45a5f2dfc984.webp",
-    "static/media/chi-siamo-mobile.webp": "/static/media/chi-siamo-mobile.517858663d2fa2f2c324.webp",
-    "static/media/ANDYFISH.ttf": "/static/media/ANDYFISH.5fdbff029a18e80ce9a4.ttf",
-    "static/media/ANDYFISH.woff": "/static/media/ANDYFISH.6b3b80e115554b01e16d.woff",
+    "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
+    "static/media/Fashion-Fetish-Bold.ttf": "/static/media/Fashion-Fetish-Bold.abcf4d86dd112d767c91.ttf",
+    "static/media/Fashion-Fetish-Bold.woff2": "/static/media/Fashion-Fetish-Bold.f02fa2d6fef4541b748e.woff2",
+    "static/media/Fashion-Fetish-Regular.woff2": "/static/media/Fashion-Fetish-Regular.bb06addf9db1cad3c5de.woff2",
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
-    "main.24a0956d.css.map": "/static/css/main.24a0956d.css.map",
-    "main.21a3fd62.js.map": "/static/js/main.21a3fd62.js.map"
+    "main.b6f2c6c8.css.map": "/static/css/main.b6f2c6c8.css.map",
+    "main.bce4d59b.js.map": "/static/js/main.bce4d59b.js.map"
   },
   "entrypoints": [
-    "static/css/main.24a0956d.css",
-    "static/js/main.21a3fd62.js"
+    "static/css/main.b6f2c6c8.css",
+    "static/js/main.bce4d59b.js"
   ]
 }
