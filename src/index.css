@@ -1,9 +1,12 @@
 :root {
   --font-family: "adobe-caslon-pro", serif;
   --font-style: normal;
-  --color-bg: #5E0928;
-  --color-text: #E4D6A3;
-  --color-subtext: #E4D6A3;
+  --color-vinaccia: #5E0928;
+  --color-rosino: #B7556C;
+  --color-panna: #E4D6A3;
+  --color-bg: var(--color-vinaccia);
+  --color-text: var(--color-panna);
+  --color-subtext: var(--color-panna);
 }
 
 @font-face {

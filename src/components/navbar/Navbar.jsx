@@ -7,7 +7,6 @@ const Menu = () => (
   <>
     <p><a href="#what">Chi siamo</a></p>
     <p><a href="#shows">Spettacoli</a></p>
-    <p><a href="#contatti">Contatti</a></p>
   </>
 )
 

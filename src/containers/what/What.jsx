@@ -11,8 +11,11 @@ const What = () => {
     return (
     <div id='what' className='chi-siamo-container'>
       <div className={`chi-siamo-content section__padding`}>
-        <h2 ref={ref} className='chi-siamo-title'>Chi siamo?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices venenatis tincidunt. Mauris quis metus ut justo fermentum rhoncus. Donec tempus diam ac odio tristique, vitae iaculis urna convallis. Suspendisse potenti. Duis vehicula tellus vel enim convallis bibendum. Donec leo augue, aliquet ac nisl vitae, faucibus pharetra diam. Cras sit amet neque nibh. Donec dictum orci est, a lobortis erat cursus ac. Pellentesque nec auctor nibh. Nullam in ex consequat, euismod tellus non, vulputate nisl. Sed fringilla pulvinar massa in rhoncus.</p>
+        <h2 ref={ref} className='chi-siamo-title'>Chi siamo: la storia dietro Divino</h2>
+        <p>Divino è un musical originale ispirato alla parabola del Figliol Prodigo, che racconta il viaggio di una ragazza alla ricerca del suo posto nel mondo e di un padre che attende con amore il suo ritorno.</p>
+        <br />
+        <p>Scritto e composto da giovani della Parrocchia di Formigine, unisce musica, teatro e passione in un progetto che parla di perdono, sogni e amore incondizionato.</p>
+        <button><a href="/chi-siamo">Altro</a></button>
       </div>
     </div>
   )
