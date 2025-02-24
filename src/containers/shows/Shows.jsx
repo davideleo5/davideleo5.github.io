@@ -10,7 +10,7 @@ const Shows = () => {
 
   return (
     <div id='shows' className='home-shows-container' style={{ backgroundImage: `url(${background})` }}>
-      <div className='shows-content'>
+      <div className='shows-content container'>
         <h2 ref={ref} className={`shows-coming-soon-title ${inView ? 'slide-in-fwd-center' : ''}`}>Prossimi spettacoli</h2>
         <br />
         <p>Teatro Carani - Sassuolo</p>

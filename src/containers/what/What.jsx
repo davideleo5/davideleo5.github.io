@@ -9,7 +9,7 @@ const What = () => {
     windowWidth = useRef(window.innerWidth);
 
     return (
-    <div id='what' className='chi-siamo-container'>
+    <div id='what' className='chi-siamo-container container'>
       <div className={`chi-siamo-content section__padding`}>
         <h2 ref={ref} className='chi-siamo-title'>Chi siamo: la storia dietro Divino</h2>
         <p>Divino è un musical originale ispirato alla parabola del Figliol Prodigo, che racconta il viaggio di una ragazza alla ricerca del suo posto nel mondo e di un padre che attende con amore il suo ritorno.</p>
