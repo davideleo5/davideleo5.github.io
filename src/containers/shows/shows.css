@@ -1,18 +1,22 @@
-.shows-container {
+.home-shows-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 20% 0;
     position: relative;
-}
-
-.shows-container .shows-coming-soon-title {
-    margin: 0;
     text-align: center;
 }
 
+.home-shows-container .shows-content {
+    padding: 0 2rem;
+}
+
+.home-shows-container .shows-content .shows-coming-soon-title {
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) {
-    .shows-container {
+    .home-shows-container {
         padding: 40% 0;
     }
 }
