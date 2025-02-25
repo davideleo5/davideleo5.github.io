@@ -1,4 +1,5 @@
 import { React } from 'react';
+import { Link } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
 import './what.css';
 
@@ -14,7 +15,7 @@ const What = () => {
         <p>Divino è un musical originale ispirato alla parabola del Figliol Prodigo, che racconta il viaggio di una ragazza alla ricerca del suo posto nel mondo e di un padre che attende con amore il suo ritorno.</p>
         <br />
         <p>Scritto e composto da giovani della Parrocchia di Formigine, unisce musica, teatro e passione in un progetto che parla di perdono, sogni e amore incondizionato.</p>
-        <button><a href="/chi-siamo">Altro</a></button>
+        <button><Link to='/chi-siamo'>Altro</Link></button>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
 import './shows.css';
 import background from "../../assets/shows.webp";
@@ -18,7 +19,7 @@ const Shows = () => {
         <br />
         <p>Non perderti la prima rappresentazione del nostro musical!</p>
         <p>Ti aspettiamo per un’esperienza unica di musica, emozioni e spettacolo.</p>
-        <button><a href="/spettacoli">Scopri di più</a></button>
+        <button><Link to='/spettacoli'>Scopri di più</Link></button>
       </div>
     </div>
   )
