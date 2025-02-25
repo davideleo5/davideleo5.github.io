@@ -80,10 +80,15 @@ button {
     border: 1px solid var(--color-rosino);
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 2rem;
     min-height: 50px;
     min-width: 100px;
     padding: 10px 15px;
     text-transform: uppercase;
+}
+
+button a {
+    text-decoration: none;
 }
 
 button:hover {
@@ -147,13 +152,13 @@ body {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 767px) {
     .section__padding {
-        padding: 4rem 2rem;
+        padding: 2rem;
     }
 
     .secion__margin {
-        margin: 4rem 2rem;
+        margin: 2rem;
     }
 }
 

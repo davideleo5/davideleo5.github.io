@@ -1,3 +1,10 @@
 .download-button {
-    margin: 1rem 0 0;
+    color: var(--color-panna);
+    font-family: FashionFetish;
+    line-height: 25px;
+}
+
+.download-button:hover {
+    color: var(--color-rosino);
+
 }

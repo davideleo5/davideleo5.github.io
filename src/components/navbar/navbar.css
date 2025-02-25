@@ -19,16 +19,15 @@
     flex-direction: row;
 }
 
-.navbar-links_container p,
-.navbar-menu_container p {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: capitalize;
+.navbar-links_container a,
+.navbar-menu_container a {
     margin: 0 1rem;
-    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-links_container a.active-menu {
+    color: var(--color-rosino);
+    text-decoration: underline;
 }
 
 .navbar-menu {
@@ -58,7 +57,8 @@
     z-index: 99;
 }
 
-.navbar-menu_container p {
+.navbar-menu_container a {
+    display: block;
     margin: 1rem 0;
 }
 

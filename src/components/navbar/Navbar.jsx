@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png'
 import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href="#what">Chi siamo</a></p>
-    <p><a href="#shows">Spettacoli</a></p>
+    <NavLink to="/spettacoli" className={({ isActive }) => isActive ? "active-menu" : ""}>
+      Spettacoli
+    </NavLink>
+    <NavLink to="/chi-siamo" className={({ isActive }) => isActive ? "active-menu" : ""}>
+      Chi siamo
+    </NavLink>
   </>
 )
 
@@ -17,8 +22,9 @@ const Navbar = () => {
     <div className='navbar container section__padding'>
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
-          {/* @TODO: sostituire logo con icona musical (calice di vino, roba simile) */}
-          <img src={logo} alt="Divino Musical Logo" width='60' height='60' />
+          <a href="/">
+            <img src={logo} alt="Divino Musical Logo" width='60' height='60' />
+          </a>
         </div>
         <div className='navbar-links_container'>
           <Menu />

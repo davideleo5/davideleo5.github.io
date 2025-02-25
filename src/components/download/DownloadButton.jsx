@@ -9,7 +9,7 @@ export function DownloadButton() {
         saveAs(blob, iCal);
     };
 
-    return <button className="download-button" onClick={downloadFile}><a>Aggiungi al calendario</a></button>;
+    return <button className="download-button" onClick={downloadFile}>Aggiungi al calendario</button>;
 }
 
 export default DownloadButton;
