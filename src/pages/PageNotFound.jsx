@@ -1,4 +1,4 @@
-import { Navbar, DownloadButton } from '../components';
+import { Navbar } from '../components';
 import { Footer } from '../containers';
 
 export function PageNotFound() {
