@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4837b36d.css",
-    "main.js": "/static/js/main.ff428e5f.js",
+    "main.js": "/static/js/main.a323aa3b.js",
     "static/media/shows.webp": "/static/media/shows.c555534e8719f0fb72ba.webp",
     "static/media/header-banner.webp": "/static/media/header-banner.84ae50bf45a5f2dfc984.webp",
     "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
@@ -12,10 +12,10 @@
     "index.html": "/index.html",
     "static/media/Divino.ics": "/static/media/Divino.8aabf3cee41f04164f66.ics",
     "main.4837b36d.css.map": "/static/css/main.4837b36d.css.map",
-    "main.ff428e5f.js.map": "/static/js/main.ff428e5f.js.map"
+    "main.a323aa3b.js.map": "/static/js/main.a323aa3b.js.map"
   },
   "entrypoints": [
     "static/css/main.4837b36d.css",
-    "static/js/main.ff428e5f.js"
+    "static/js/main.a323aa3b.js"
   ]
 }
