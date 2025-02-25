@@ -1,10 +1,15 @@
 import { React } from 'react';
+import { useInView } from 'react-intersection-observer';
 import './what.css';
 
 const What = () => {
-    return (
+  const { ref, inView } = useInView({
+    triggerOnce: true
+  });
+
+  return (
     <div id='what' className='chi-siamo-container container text-align-center'>
-      <div className={`chi-siamo-content section__padding`}>
+      <div ref={ref} className={`chi-siamo-content section__padding ${inView ? 'slide-in-fwd-center' : ''}`}>      
         <h2 className='chi-siamo-title'>Chi siamo: la storia dietro Divino</h2>
         <p>Divino è un musical originale ispirato alla parabola del Figliol Prodigo, che racconta il viaggio di una ragazza alla ricerca del suo posto nel mondo e di un padre che attende con amore il suo ritorno.</p>
         <br />
