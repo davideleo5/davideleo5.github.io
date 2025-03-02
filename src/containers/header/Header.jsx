@@ -1,12 +1,11 @@
 import React from 'react';
 import { Navbar } from '../../components';
 import './header.css';
-import background from "../../assets/header-banner.webp";
 
 const Header = () => {
   return (
     <div className='header' id='header'>
-      <div className='header-content' style={{ backgroundImage: `url(${background})` }}>
+      <div className='header-content'>
         <Navbar />
         <div className='header-logo'>
           {/* @TODO: sostituire con logo */}
