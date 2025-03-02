@@ -1,15 +1,19 @@
-import { saveAs } from 'file-saver'
-import iCal from '../../assets/Divino.ics'
 import './DownloadButton.css'
+import ICalendarLink from "react-icalendar-link";
 
 export function DownloadButton() {
-
-    const downloadFile = () => {
-        const blob = new Blob(['Divino'], { type: 'text/plain;charset=utf-8' });
-        saveAs(blob, iCal);
+    const event = {
+        title: "Divino Musical",
+        startTime: "2025-05-03T21:00:00+02:00",
+        endTime: "2025-05-03T23:30:00+02:00",
+        location: "Teatro Carani, Sassuolo",
     };
 
-    return <button className="download-button" onClick={downloadFile}>Aggiungi al calendario</button>;
+    return (
+        <button className="App download-button">
+          <ICalendarLink filename="divino.ics" event={event}>Add to Calendar</ICalendarLink>
+        </button>
+    );
 }
 
 export default DownloadButton;
