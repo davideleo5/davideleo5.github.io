@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4837b36d.css",
-    "main.js": "/static/js/main.a323aa3b.js",
+    "main.css": "/static/css/main.2b21691d.css",
+    "main.js": "/static/js/main.9783a5ab.js",
     "static/media/shows.webp": "/static/media/shows.c555534e8719f0fb72ba.webp",
-    "static/media/header-banner.webp": "/static/media/header-banner.84ae50bf45a5f2dfc984.webp",
     "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
     "static/media/Fashion-Fetish-Bold.ttf": "/static/media/Fashion-Fetish-Bold.abcf4d86dd112d767c91.ttf",
     "static/media/Fashion-Fetish-Bold.woff2": "/static/media/Fashion-Fetish-Bold.f02fa2d6fef4541b748e.woff2",
     "static/media/Fashion-Fetish-Regular.woff2": "/static/media/Fashion-Fetish-Regular.bb06addf9db1cad3c5de.woff2",
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
-    "static/media/Divino.ics": "/static/media/Divino.8aabf3cee41f04164f66.ics",
-    "main.4837b36d.css.map": "/static/css/main.4837b36d.css.map",
-    "main.a323aa3b.js.map": "/static/js/main.a323aa3b.js.map"
+    "main.2b21691d.css.map": "/static/css/main.2b21691d.css.map",
+    "main.9783a5ab.js.map": "/static/js/main.9783a5ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.4837b36d.css",
-    "static/js/main.a323aa3b.js"
+    "static/css/main.2b21691d.css",
+    "static/js/main.9783a5ab.js"
   ]
 }
