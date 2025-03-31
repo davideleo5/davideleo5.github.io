@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
 import './shows.css';
-import background from "../../assets/shows.webp";
 
 const Shows = () => {
   const { ref, inView } = useInView({
@@ -10,8 +9,8 @@ const Shows = () => {
   });
 
   return (
-    <div id='shows' className='home-shows-container' style={{ backgroundImage: `url(${background})` }}>
-      <div ref={ref} className={`shows-content container ${inView ? 'slide-in-fwd-center' : ''}`}>
+    <div id='shows' className='home-shows-container container text-align-center'>
+      <div ref={ref} className={`shows-content section__padding ${inView ? 'slide-in-fwd-center' : ''}`}>
         <h2 className='shows-coming-soon-title'>Prossimi spettacoli</h2>
         <br />
         <p>Teatro Carani - Sassuolo</p>

@@ -37,6 +37,7 @@
 }
 
 .navbar-menu svg {
+    color: var(--color-panna) !important;
     cursor: pointer;
 }
 

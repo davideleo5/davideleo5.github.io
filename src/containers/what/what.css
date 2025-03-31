@@ -1,18 +1,14 @@
 .chi-siamo-container {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    border-top: 2px solid var(--color-rosino);
+    border-bottom: 2px solid var(--color-rosino);
     padding: 10% 0;
-    position: relative;
-}
-
-.chi-siamo-content {
-    position: relative;
-    z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
     .chi-siamo-container {
+        align-items: center;
+        display: flex;
+        min-height: 600px;
         padding: 10% 0 5%;
     }
 }

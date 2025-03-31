@@ -1,22 +1,13 @@
 .home-shows-container {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 20% 0;
-    position: relative;
-    text-align: center;
-}
-
-.home-shows-container .shows-content {
-    padding: 0 2rem;
-}
-
-.home-shows-container .shows-content .shows-coming-soon-title {
-    margin: 0;
+    border-bottom: 2px solid var(--color-rosino);
+    padding: 10% 0;
 }
 
 @media screen and (max-width: 768px) {
     .home-shows-container {
-        padding: 40% 0;
+        align-items: center;
+        display: flex;
+        min-height: 600px;
+        padding: 10% 0 5%;
     }
 }
