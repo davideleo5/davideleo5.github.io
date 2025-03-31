@@ -75,15 +75,19 @@ a {
     line-height: 25px;
 }
 
-button {
+button, .button-link {
+    align-items: center;
     background-color: var(--color-rosino);
     border: 1px solid var(--color-rosino);
     border-radius: 5px;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
     margin-top: 2rem;
     min-height: 50px;
     min-width: 100px;
     padding: 10px 15px;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -91,9 +95,10 @@ button a {
     text-decoration: none;
 }
 
-button:hover {
+button:hover, .button-link:hover {
     background-color: var(--color-panna);
     border: 1px solid var(--color-panna);
+    color: var(--color-rosino);
 }
 
 button:hover a {

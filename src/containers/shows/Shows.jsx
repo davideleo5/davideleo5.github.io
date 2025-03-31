@@ -19,7 +19,7 @@ const Shows = () => {
         <br />
         <p>Non perderti la prima rappresentazione del nostro musical!</p>
         <p>Ti aspettiamo per un’esperienza unica di musica, emozioni e spettacolo.</p>
-        <button><Link to='/spettacoli'>Scopri di più</Link></button>
+        <Link to='/spettacoli' className='button-link'>Scopri di più</Link>
       </div>
     </div>
   )

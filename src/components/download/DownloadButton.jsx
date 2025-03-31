@@ -11,7 +11,7 @@ export function DownloadButton() {
 
     return (
         <button className="App download-button">
-          <ICalendarLink filename="divino.ics" event={event}>Add to Calendar</ICalendarLink>
+          <ICalendarLink filename="divino.ics" event={event}>Aggiungi al calendario</ICalendarLink>
         </button>
     );
 }

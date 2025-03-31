@@ -41,19 +41,19 @@
 }
 
 .navbar-menu_container {
-    display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
-    flex-direction: column;
-    text-align: end;
     background: var(--color-bg);
+    border: 2px solid var(--color-rosino);
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0.2);display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-width: 210px;
     padding: 1rem 2rem;
     position: absolute;
-    top: 40px;
     right: 0;
-    min-width: 210px;
-    border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0, 0, 0.2);
+    top: 40px;
+    text-align: end;
     z-index: 99;
 }
 
