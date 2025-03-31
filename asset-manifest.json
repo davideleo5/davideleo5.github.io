@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.435dd682.css",
-    "main.js": "/static/js/main.e7b46c77.js",
+    "main.css": "/static/css/main.3314511f.css",
+    "main.js": "/static/js/main.298817d0.js",
     "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
     "static/media/Fashion-Fetish-Bold.ttf": "/static/media/Fashion-Fetish-Bold.abcf4d86dd112d767c91.ttf",
     "static/media/Fashion-Fetish-Bold.woff2": "/static/media/Fashion-Fetish-Bold.f02fa2d6fef4541b748e.woff2",
@@ -9,11 +9,11 @@
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
     "static/media/eventbrite.svg": "/static/media/eventbrite.172ccf9df9cc8a9c0acbd7ebff6398d2.svg",
-    "main.435dd682.css.map": "/static/css/main.435dd682.css.map",
-    "main.e7b46c77.js.map": "/static/js/main.e7b46c77.js.map"
+    "main.3314511f.css.map": "/static/css/main.3314511f.css.map",
+    "main.298817d0.js.map": "/static/js/main.298817d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.435dd682.css",
-    "static/js/main.e7b46c77.js"
+    "static/css/main.3314511f.css",
+    "static/js/main.298817d0.js"
   ]
 }
