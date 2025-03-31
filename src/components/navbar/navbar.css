@@ -1,6 +1,5 @@
 .navbar {
     align-items: center;
-    border-bottom: 2px solid var(--color-rosino);
     display: flex;
     justify-content: space-between;
     padding: 3rem 2rem;
@@ -47,7 +46,7 @@
     align-items: flex-end;
     background: var(--color-bg);
     border: 2px solid var(--color-rosino);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 5 rgba(0, 0, 0.2);display: flex;
     justify-content: flex-end;
     flex-direction: column;
