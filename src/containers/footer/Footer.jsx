@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './footer.css';
 import logo from '../../assets/logo.png'
+import eventbriteLogo from '../../assets/eventbrite.svg'
 import instagramLogo from '../../assets/instagram.svg'
 
 const Footer = () => {
@@ -14,9 +16,16 @@ const Footer = () => {
           <a className='mail' href="mailto:info@divino-musical.com">info@divino-musical.com</a>
         </div>
         <div className='column column-2'>
+          <p><Link to='/'>Home</Link></p>
+          <p><Link to='/chi-siamo'>Chi siamo</Link></p>
+          <p><Link to='/spettacoli'>Spettacoli</Link></p>
         </div>
         <div className='column column-3'>
-          <a href='https://instagram.com/divino_musical?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr' target='blank'>
+          <a href="https://www.eventbrite.com/cc/divino-il-musical-teatro-carani-3-4-maggio-2025-4180013" target="_blank" rel="noopener noreferrer">
+            <img src={eventbriteLogo} alt='Instagram logo' width='18' height='18' />
+            <p>Biglietti</p>
+          </a>
+          <a href='https://instagram.com/divino_musical?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr' target='blank' rel="noopener noreferrer">
             <img src={instagramLogo} alt='Instagram logo' width='18' height='18' />
             <p>Instagram</p>
           </a>

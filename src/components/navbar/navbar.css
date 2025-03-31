@@ -1,7 +1,8 @@
 .navbar {
+    align-items: center;
+    border-bottom: 2px solid var(--color-rosino);
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navbar-links {

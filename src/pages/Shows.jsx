@@ -1,18 +1,26 @@
-import { Navbar, DownloadButton } from '../components';
+import { Navbar, Tickets } from '../components';
 import { Footer } from '../containers';
 
 export function Shows() {
   return (
     <>
     <Navbar />
-    <div className='container section__padding'>
-      <h1>Biglietti</h1>
-      <p>I biglietti saranno presto disponibili. Intanto salva le date nel calendario e non prendere altri impegni!</p>
-      <DownloadButton />
-    </div>
+    <Tickets />
     <Footer />
     </>
   )
 }
 
 export default Shows;
+
+/*Vivi la storia di *_Divino_*, il nuovo musical della parrocchia di Formigine.
+
+*3 e 4 maggio* al Teatro Carani di Sassuolo.
+
+🎟️ Biglietti disponibili:
+
+Online: 
+https://linktr.ee/divino_musical 
+
+
+*/
