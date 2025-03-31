@@ -19,7 +19,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='navbar container section__padding'>
+    <div className='navbar container'>
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
           <Link to='/'>

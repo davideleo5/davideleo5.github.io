@@ -8,6 +8,6 @@
 .header .header-content .header-logo {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: calc(50% + 67px);
     transform: translate(-50%, -50%);
 }
