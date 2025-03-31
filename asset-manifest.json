@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6ed34af.css",
-    "main.js": "/static/js/main.0ad52fb8.js",
-    "static/media/shows.webp": "/static/media/shows.c555534e8719f0fb72ba.webp",
+    "main.css": "/static/css/main.453240c0.css",
+    "main.js": "/static/js/main.271ffe85.js",
     "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
     "static/media/Fashion-Fetish-Bold.ttf": "/static/media/Fashion-Fetish-Bold.abcf4d86dd112d767c91.ttf",
     "static/media/Fashion-Fetish-Bold.woff2": "/static/media/Fashion-Fetish-Bold.f02fa2d6fef4541b748e.woff2",
     "static/media/Fashion-Fetish-Regular.woff2": "/static/media/Fashion-Fetish-Regular.bb06addf9db1cad3c5de.woff2",
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
-    "main.c6ed34af.css.map": "/static/css/main.c6ed34af.css.map",
-    "main.0ad52fb8.js.map": "/static/js/main.0ad52fb8.js.map"
+    "static/media/eventbrite.svg": "/static/media/eventbrite.172ccf9df9cc8a9c0acbd7ebff6398d2.svg",
+    "main.453240c0.css.map": "/static/css/main.453240c0.css.map",
+    "main.271ffe85.js.map": "/static/js/main.271ffe85.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ed34af.css",
-    "static/js/main.0ad52fb8.js"
+    "static/css/main.453240c0.css",
+    "static/js/main.271ffe85.js"
   ]
 }
