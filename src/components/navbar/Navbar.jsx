@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
           <Link to='/'>
-            <img src={logo} alt="Divino Musical Logo" width='60' height='60' />
+            <img src={logo} alt="Divino Musical Logo" width='auto' height='40' />
           </Link>
         </div>
         <div className='navbar-links_container'>

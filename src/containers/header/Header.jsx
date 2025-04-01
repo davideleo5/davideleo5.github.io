@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Separator } from '../../components';
 import './header.css';
+import logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
@@ -9,8 +10,7 @@ const Header = () => {
         <Navbar />
         <Separator />
         <div className='header-logo'>
-          {/* @TODO: sostituire con logo */}
-          <h1>Divino musical</h1>
+          <img src={logo} alt='Divino Musical Logo' width='auto' height='100' />
         </div>
       </div>
     </div>

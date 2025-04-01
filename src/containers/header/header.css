@@ -8,6 +8,12 @@
 .header .header-content .header-logo {
     position: absolute;
     left: 50%;
-    top: calc(50% + 67px);
+    top: calc(50% + 68px);
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1200px) {
+    .header .header-content .header-logo {
+        top: calc(50% + 52px);
+    }
 }

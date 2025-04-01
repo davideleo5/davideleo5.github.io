@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='footer-content section__padding'>
         <div className='column column-1'>
           <a href='/'>
-            <img src={logo} alt='Divino Musical Logo' width='50' height='50' />
+            <img src={logo} alt='Divino Musical Logo' width='auto' height='40' />
           </a>
           <a className='mail' href="mailto:info@divino-musical.com">info@divino-musical.com</a>
         </div>
