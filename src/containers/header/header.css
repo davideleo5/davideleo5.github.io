@@ -8,12 +8,16 @@
 .header .header-content .header-logo {
     position: absolute;
     left: 50%;
+    top: -webkit-calc(50% + 68px);
+    top: -moz-calc(50% + 68px);
     top: calc(50% + 68px);
     transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1200px) {
     .header .header-content .header-logo {
+        top: -webkit-calc(50% + 52px);
+        top: -moz-calc(50% + 52px);
         top: calc(50% + 52px);
     }
 }
