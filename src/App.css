@@ -5,9 +5,10 @@
     --color-vinaccia: #5E0928;
     --color-rosino: #B7556C;
     --color-panna: #E4D6A3;
+    --color-bianco: #FFFFFF;
     --color-bg: var(--color-vinaccia);
-    --color-text: var(--color-panna);
-    --color-subtext: var(--color-panna);
+    --color-text: var(--color-bianco);
+    --color-subtext: var(--color-bianco);
 }
 
 @font-face {
@@ -75,6 +76,10 @@ a {
     line-height: 25px;
 }
 
+a:hover {
+    color: var(--color-panna);
+}
+
 button, .button-link {
     align-items: center;
     background-color: var(--color-rosino);
@@ -96,8 +101,8 @@ button a {
 }
 
 button:hover, .button-link:hover {
-    background-color: var(--color-panna);
-    border: 1px solid var(--color-panna);
+    background-color: var(--color-text);
+    border: 1px solid var(--color-text);
     color: var(--color-rosino);
 }
 
@@ -106,7 +111,7 @@ button:hover a {
 }
 
 ul {
-    color: var(--color-panna);
+    color: var(--color-text);
     padding-left: 20px;
 }
 

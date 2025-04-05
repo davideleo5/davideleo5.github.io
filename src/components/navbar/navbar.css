@@ -42,7 +42,7 @@
 }
 
 .navbar-menu svg {
-    color: var(--color-panna) !important;
+    color: var(--color-text) !important;
     cursor: pointer;
 }
 
