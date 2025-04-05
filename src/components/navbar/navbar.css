@@ -1,3 +1,8 @@
+.navbar-separator-container {
+    background-color: var(--color-bg);
+    z-index: 999;
+}
+
 .navbar {
     align-items: center;
     display: flex;
