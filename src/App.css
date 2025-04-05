@@ -80,6 +80,10 @@ a:hover {
     color: var(--color-panna);
 }
 
+a:hover p {
+    color: var(--color-panna);
+}
+
 button, .button-link {
     align-items: center;
     background-color: var(--color-rosino);
