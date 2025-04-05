@@ -66,7 +66,6 @@ h3 {
 p {
     color: var(--color-subtext);
     font-family: FashionFetish;
-    font-size: 16px;
     line-height: 25px;
 }
   
@@ -126,9 +125,13 @@ ul {
     }
   
     h2 {
-      font-size: 30px;
-      line-height: 35px;
+      font-size: 26px;
+      line-height: 32px;
       margin: 0 0 1rem;
+    }
+
+    p, a {
+        font-size: 14px;
     }
 }
 
@@ -158,6 +161,10 @@ body {
 
 .text-align-center {
     text-align: center;
+}
+
+.not-found p, .not-found a {
+    font-size: unset;
 }
 
 @media screen and (max-width: 767px) {

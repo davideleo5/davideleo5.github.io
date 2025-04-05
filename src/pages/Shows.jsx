@@ -1,14 +1,17 @@
+import Headroom from 'react-headroom';
 import { Navbar, Tickets, Separator } from '../components';
 import { Footer } from '../containers';
 
 export function Shows() {
   return (
     <>
-    <Navbar />
-    <Separator />
-    <Tickets />
-    <Separator />
-    <Footer />
+      <Headroom>
+        <Navbar />
+      </Headroom>
+      <Separator />
+      <Tickets />
+      <Separator />
+      <Footer />
     </>
   )
 }

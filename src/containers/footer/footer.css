@@ -8,16 +8,11 @@
     width: calc(100%/3);
 }
 
-.footer .footer-content .column p {
-    font-size: 14px;
-}
-
 .footer .footer-content .column.column-1 a {
     display: block;
 }
 
 .footer .footer-content .column.column-1 a.mail {
-    font-size: 14px;
     margin-top: 5px;
 }
 

@@ -1,14 +1,17 @@
+import Headroom from 'react-headroom';
 import { Navbar, Story, Separator } from '../components';
 import { Footer } from '../containers';
 
 export function ChiSiamo() {
     return (
       <>
-      <Navbar />
-      <Separator />
-      <Story />
-      <Separator />
-      <Footer />
+        <Headroom>
+          <Navbar />
+        </Headroom>
+        <Separator />
+        <Story />
+        <Separator />
+        <Footer />
       </>
     )
 }

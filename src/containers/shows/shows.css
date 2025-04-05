@@ -6,7 +6,7 @@
     .home-shows-container {
         align-items: center;
         display: flex;
-        min-height: 600px;
-        padding: 10% 0 5%;
+        min-height: 570px;
+        padding: 8% 0 5%;
     }
 }
