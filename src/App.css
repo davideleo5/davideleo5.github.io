@@ -1,6 +1,6 @@
 /* GENERAL CSS RULES */
 :root {
-    --font-family: "adobe-caslon-pro", serif;
+    --font-family: ACasionPro;
     --font-style: normal;
     --color-vinaccia: #5E0928;
     --color-rosino: #B7556C;
@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: normal;
 }
-  
+
 @font-face {
     font-family: 'FashionFetish';
     src:  url('./assets/fonts/Fashion-Fetish-Bold.ttf') format('truetype'), url('./assets/fonts/Fashion-Fetish-Bold.woff2') format('woff');
@@ -26,7 +26,7 @@
     font-style: normal;
     font-weight: bold;
 }
-  
+
 @font-face {
     font-family: 'FashionFetish';
     src: url('./assets/fonts/Fashion-Fetish-Bold.ttf') format('truetype'), url('./assets/fonts/Fashion-Fetish-Bold.woff2') format('woff');
@@ -34,7 +34,31 @@
     font-style: normal;
     font-weight: lighter;
 }
-  
+
+@font-face {
+    font-family: 'ACasionPro';
+    src:  url('./assets/fonts/ACaslonPro-Bold.ttf') format('truetype'), url('./assets/fonts/ACaslonPro-Bold.woff2') format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'ACasionPro';
+    src:  url('./assets/fonts/ACaslonPro-Regular.ttf') format('truetype'), url('./assets/fonts/ACaslonPro-Regular.woff2') format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ACasionPro';
+    src:  url('./assets/fonts/ACaslonPro-Italic.ttf') format('truetype'), url('./assets/fonts/ACaslonPro-Italic.woff2') format('woff');
+    font-display: swap;
+    font-style: italic;
+    font-weight: normal;
+}
+
 h1 {
     color: var(--color-text);
     font-family: var(--font-family);
@@ -43,7 +67,7 @@ h1 {
     line-height: 50px;
     text-transform: uppercase;
 }
-  
+
 h2 {
     color: var(--color-text);
     font-family: var(--font-family);
