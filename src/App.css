@@ -109,8 +109,8 @@ a:hover p {
 
 button, .button-link {
     align-items: center;
-    background-color: var(--color-vinaccia);
-    border: 1px solid var(--color-vinaccia);
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-bianco);
     border-radius: 5px;
     cursor: pointer;
     display: inline-flex;
@@ -128,9 +128,9 @@ button a {
 }
 
 button:hover, .button-link:hover {
-    background-color: var(--color-text);
-    border: 1px solid var(--color-text);
-    color: var(--color-rosino);
+    background-color: var(--color-bianco);
+    border: 1px solid var(--color-bianco);
+    color: var(--color-bg);
 }
 
 button:hover a {
