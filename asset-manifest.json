@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b9b7896.css",
-    "main.js": "/static/js/main.05e753e4.js",
+    "main.css": "/static/css/main.62668a67.css",
+    "main.js": "/static/js/main.e0e856eb.js",
     "static/media/logo.png": "/static/media/logo.eda6b9e7ed2117d4ac51.png",
+    "static/media/ACaslonPro-Italic.woff2": "/static/media/ACaslonPro-Italic.9e65cb034a686bdfb573.woff2",
+    "static/media/ACaslonPro-Regular.woff2": "/static/media/ACaslonPro-Regular.9cc56cce1e583c19982f.woff2",
     "static/media/Fashion-Fetish-Regular.ttf": "/static/media/Fashion-Fetish-Regular.3228a9f07facc17ce835.ttf",
     "static/media/Fashion-Fetish-Bold.ttf": "/static/media/Fashion-Fetish-Bold.abcf4d86dd112d767c91.ttf",
+    "static/media/ACaslonPro-Italic.ttf": "/static/media/ACaslonPro-Italic.63c238e215e2d328cb3d.ttf",
+    "static/media/ACaslonPro-Bold.woff2": "/static/media/ACaslonPro-Bold.609131f59762b0fd79b2.woff2",
+    "static/media/ACaslonPro-Regular.ttf": "/static/media/ACaslonPro-Regular.7b5c2d7bb43fdc8500e0.ttf",
+    "static/media/ACaslonPro-Bold.ttf": "/static/media/ACaslonPro-Bold.6a39e4dc6f10f84e53fe.ttf",
     "static/media/Fashion-Fetish-Bold.woff2": "/static/media/Fashion-Fetish-Bold.f02fa2d6fef4541b748e.woff2",
     "static/media/Fashion-Fetish-Regular.woff2": "/static/media/Fashion-Fetish-Regular.bb06addf9db1cad3c5de.woff2",
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
     "static/media/eventbrite.svg": "/static/media/eventbrite.172ccf9df9cc8a9c0acbd7ebff6398d2.svg",
-    "main.7b9b7896.css.map": "/static/css/main.7b9b7896.css.map",
-    "main.05e753e4.js.map": "/static/js/main.05e753e4.js.map"
+    "main.62668a67.css.map": "/static/css/main.62668a67.css.map",
+    "main.e0e856eb.js.map": "/static/js/main.e0e856eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9b7896.css",
-    "static/js/main.05e753e4.js"
+    "static/css/main.62668a67.css",
+    "static/js/main.e0e856eb.js"
   ]
 }
