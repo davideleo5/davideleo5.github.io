@@ -18,7 +18,7 @@ const Footer = () => {
         <div className='column column-2'>
           <p><Link to='/'>Home</Link></p>
           <p><Link to='/chi-siamo'>Chi siamo</Link></p>
-          <p><Link to='/spettacoli'>Spettacoli</Link></p>
+          <p><Link to='/spettacoli'>Le date</Link></p>
         </div>
         <div className='column column-3'>
           <a href="https://www.eventbrite.com/cc/divino-il-musical-teatro-carani-2-3-novembre-2025-4637423" target="_blank" rel="noopener noreferrer">

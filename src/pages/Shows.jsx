@@ -8,7 +8,6 @@ export function Shows() {
       <Headroom>
         <Navbar />
       </Headroom>
-      <Separator />
       <Tickets />
       <Separator />
       <Footer />

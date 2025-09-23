@@ -8,7 +8,6 @@ export function ChiSiamo() {
         <Headroom>
           <Navbar />
         </Headroom>
-        <Separator />
         <Story />
         <Separator />
         <Footer />

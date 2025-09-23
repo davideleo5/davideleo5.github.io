@@ -8,7 +8,7 @@ import './navbar.css';
 const Menu = () => (
   <>
     <Link to='/spettacoli' className={({ isActive }) => isActive ? "active-menu" : ""}>
-      Spettacoli
+      Le date
     </Link>
     <Link to='/chi-siamo' className={({ isActive }) => isActive ? "active-menu" : ""}>
       Chi siamo

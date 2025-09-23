@@ -6,7 +6,7 @@
     --color-rosino: #B7556C;
     --color-panna: #E4D6A3;
     --color-bianco: #FFFFFF;
-    --color-bg: var(--color-vinaccia);
+    --color-bg: var(--color-rosino);
     --color-text: var(--color-bianco);
     --color-subtext: var(--color-bianco);
 }
@@ -100,17 +100,17 @@ a {
 }
 
 a:hover {
-    color: var(--color-panna);
+    color: var(--color-vinaccia);
 }
 
 a:hover p {
-    color: var(--color-panna);
+    color: var(--color-vinaccia);
 }
 
 button, .button-link {
     align-items: center;
-    background-color: var(--color-rosino);
-    border: 1px solid var(--color-rosino);
+    background-color: var(--color-vinaccia);
+    border: 1px solid var(--color-vinaccia);
     border-radius: 5px;
     cursor: pointer;
     display: inline-flex;
