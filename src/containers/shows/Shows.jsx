@@ -13,16 +13,12 @@ const Shows = () => {
       <div ref={ref} className={`shows-content section__padding ${inView ? 'slide-in-fwd-center' : ''}`}>
         <h2 className='shows-coming-soon-title'>Prossimi spettacoli</h2>
         <br />
-        <p>Le prossime date verranno annunciate a breve.</p>
-        <p>Intanto ripercorri le emozioni delle prime due rappresentazioni</p>
-        <Link to='/gallery' className='button-link'>Sfoglia la gallery</Link>
-
-        {/* <p>Teatro Carani - Sassuolo</p>
-        <p>3 e 4 maggio 2025</p>
+        <p>Teatro Carani - Sassuolo</p>
+        <p>2 e 3 novembre 2025</p>
         <br />
-        <p>Non perderti la prima rappresentazione del nostro musical!</p>
+        <p>Non perderti le prossime repliche del nostro musical!</p>
         <p>Ti aspettiamo per un’esperienza unica di musica, emozioni e spettacolo.</p>
-        <Link to='/spettacoli' className='button-link'>Scopri di più</Link>*/}
+        <Link to='/spettacoli' className='button-link'>Scopri di più</Link>
       </div>
     </div>
   )
