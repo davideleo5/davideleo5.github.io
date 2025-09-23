@@ -54,9 +54,10 @@
 .navbar-menu_container {
     align-items: flex-end;
     background: var(--color-bg);
-    border: 2px solid var(--color-rosino);
+    border: 2px solid var(--color-bianco);
     border-radius: 10px;
-    box-shadow: 0 0 5 rgba(0, 0, 0.2);display: flex;
+    box-shadow: 0 0 5 rgba(0, 0, 0.2);
+    display: flex;
     justify-content: flex-end;
     flex-direction: column;
     min-width: 210px;

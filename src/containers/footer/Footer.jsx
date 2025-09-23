@@ -22,10 +22,10 @@ const Footer = () => {
         </div>
         <div className='column column-3'>
           <a href="https://www.eventbrite.com/cc/divino-il-musical-teatro-carani-2-3-novembre-2025-4637423" target="_blank" rel="noopener noreferrer">
-            <img src={eventbriteLogo} alt='Instagram logo' width='18' height='18' />
+            <img src={eventbriteLogo} alt='Eventbrite logo' width='18' height='18' />
             <p>Biglietti</p>
           </a>
-          <a href='https://instagram.com/divino_musical?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr' target='blank' rel="noopener noreferrer">
+          <a href='https://instagram.com/divino_musical' target='blank' rel="noopener noreferrer">
             <img src={instagramLogo} alt='Instagram logo' width='18' height='18' />
             <p>Instagram</p>
           </a>
