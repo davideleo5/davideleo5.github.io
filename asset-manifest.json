@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dda4f9df.css",
-    "main.js": "/static/js/main.2db8b6c6.js",
+    "main.css": "/static/css/main.8bde82af.css",
+    "main.js": "/static/js/main.1cd9aca3.js",
     "static/media/logo.png": "/static/media/logo.eda6b9e7ed2117d4ac51.png",
     "static/media/ACaslonPro-Italic.woff2": "/static/media/ACaslonPro-Italic.9e65cb034a686bdfb573.woff2",
     "static/media/ACaslonPro-Regular.woff2": "/static/media/ACaslonPro-Regular.9cc56cce1e583c19982f.woff2",
@@ -16,11 +16,11 @@
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
     "static/media/eventbrite.svg": "/static/media/eventbrite.172ccf9df9cc8a9c0acbd7ebff6398d2.svg",
-    "main.dda4f9df.css.map": "/static/css/main.dda4f9df.css.map",
-    "main.2db8b6c6.js.map": "/static/js/main.2db8b6c6.js.map"
+    "main.8bde82af.css.map": "/static/css/main.8bde82af.css.map",
+    "main.1cd9aca3.js.map": "/static/js/main.1cd9aca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.dda4f9df.css",
-    "static/js/main.2db8b6c6.js"
+    "static/css/main.8bde82af.css",
+    "static/js/main.1cd9aca3.js"
   ]
 }
