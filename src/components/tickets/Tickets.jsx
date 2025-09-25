@@ -7,18 +7,8 @@ const Tickets = () => {
       <h1>Biglietti</h1>
 
       <div className='tickets-content'>
-        <p>Vendita diretta presso la <a href='https://maps.app.goo.gl/NzYRFhQgwSkWdBxK9' target="_blank" rel="noopener noreferrer">canonica di Formigine</a>, ai seguenti orari:</p>
-        <ul>
-          <li>
-            <p>Al Lunedì e Venerdì, dalle 10:00 alle 12:30</p>
-          </li>
-          <li>
-            <p>Al Mercoledì, dalle 15:00 alle 18:00</p>
-        </li>
-          <li>
-            <p>Al Sabato, dalle 10:00 alle 12:30 e dalle 15:30 alle 18:30</p>
-          </li>
-        </ul>
+        <p>Vendita diretta (senza commissioni) presso la <a href='https://maps.app.goo.gl/qgbWSNkNihtmtNSk7' target="_blank" rel="noopener noreferrer">canonica di Formigine</a>, ai seguenti orari:</p>
+        <p>Giovedì, Venerdì e Sabato dalle 9:00 alle 12:00 e dalle 15:00 alle 18:00</p>
         <br />
         <br />
         <p>Biglietti disponibili anche online su <a href="https://www.eventbrite.com/cc/divino-il-musical-teatro-carani-2-3-novembre-2025-4637423" target="_blank" rel="noopener noreferrer">Eventbrite</a>.</p>
@@ -28,4 +18,3 @@ const Tickets = () => {
 }
   
 export default Tickets
-  
