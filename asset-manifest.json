@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.63830fa6.css",
-    "main.js": "/static/js/main.1cd9aca3.js",
+    "main.js": "/static/js/main.2163e029.js",
     "static/media/logo.png": "/static/media/logo.eda6b9e7ed2117d4ac51.png",
     "static/media/ACaslonPro-Italic.woff2": "/static/media/ACaslonPro-Italic.9e65cb034a686bdfb573.woff2",
     "static/media/ACaslonPro-Regular.woff2": "/static/media/ACaslonPro-Regular.9cc56cce1e583c19982f.woff2",
@@ -17,10 +17,10 @@
     "index.html": "/index.html",
     "static/media/eventbrite.svg": "/static/media/eventbrite.172ccf9df9cc8a9c0acbd7ebff6398d2.svg",
     "main.63830fa6.css.map": "/static/css/main.63830fa6.css.map",
-    "main.1cd9aca3.js.map": "/static/js/main.1cd9aca3.js.map"
+    "main.2163e029.js.map": "/static/js/main.2163e029.js.map"
   },
   "entrypoints": [
     "static/css/main.63830fa6.css",
-    "static/js/main.1cd9aca3.js"
+    "static/js/main.2163e029.js"
   ]
 }
